@@ -1,0 +1,18 @@
+{
+	"manifest_version" : 2,
+	"name" : "Bookmark Backup",
+	"version" : "1.0",
+ 
+	"default_locale" : "en",
+	"description" : "Bookmark will be back!"
+ 
+	"permissions": [
+		"bookmarks",
+		"storage",
+		"unlimitedStorage"
+	],
+	"background": {
+		"persistent": true
+	}
+
+}
