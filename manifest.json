@@ -3,15 +3,11 @@
 	"name" : "Bookmark Backup",
 	"version" : "1.0",
  
-	"default_locale" : "en",
-	"description" : "Bookmark will be back!"
+	"description" : "Bookmark will be back!",
  
-	"permissions": [
-		"bookmarks",
-		"storage",
-		"unlimitedStorage"
-	],
+	"permissions": ["bookmarks","storage","unlimitedStorage"],
 	"background": {
+		"page":"background.html",
 		"persistent": true
 	}
 
